@@ -19,4 +19,8 @@ echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.de
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
+# 酷猫主题
+git clone -b main https://github.com/sirpdboy/luci-theme-kucat.git package/lean/luci-theme-kucat
+git clone -b main https://github.com/sirpdboy/luci-app-advancedplus.git package/lean/luci-app-advancedplus
+
 
