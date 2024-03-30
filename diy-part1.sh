@@ -27,8 +27,4 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 # 替换默认主题为 luci-theme-argon
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
 
-# 酷猫主题
-git clone -b main https://github.com/sirpdboy/luci-theme-kucat.git package/lean/luci-theme-kucat
-git clone -b main https://github.com/sirpdboy/luci-app-advancedplus.git package/lean/luci-app-advancedplus
-
 
