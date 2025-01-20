@@ -17,6 +17,12 @@
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'ssrc-git opentopd  https://github.com/sirpdboy/sirpdboy-package' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+
+
+git clone https://github.com/siropboy/luci-app-bypass package/luci-app-bypass
+git clone https://github.com/sirpdboy/luci-app-advancedplus package/luci-app-advancedplus
+git clone https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
+
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # 针对 LEDE 项目拉取 argon 原作者的源码
 rm -rf feeds/luci/themes/luci-theme-argon
